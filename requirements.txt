@@ -1,0 +1,9 @@
+# rendering (render/, tools/assemble.py, tools/edit_audio.py) — ffmpeg must also be on PATH
+numpy>=2.0
+opencv-python>=4.9
+pillow>=10.0
+
+# optional: splitting the song into stems for the music analysis (tools/separate.py)
+# demucs
+# soundfile
+# torch

@@ -1,0 +1,34 @@
+# Art, audio and video are NOT part of this repository (copyright, size).
+# Bring your own copies; see README.md section 4 and assets/ref/SOURCES.md.
+assets/*
+!assets/ref/
+assets/ref/*
+!assets/ref/SOURCES.md
+audio/
+analysis/stems/
+analysis/stems_edit/
+drafts/
+work/
+
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.flac
+*.png
+*.jpg
+*.jpeg
+*.psd
+*.npz
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# editors / OS
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
